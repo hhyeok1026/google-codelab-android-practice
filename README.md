@@ -1,1 +1,0 @@
-# googleCodelab-android-practice
