@@ -33,14 +33,18 @@ fun main(){
 }
 
 fun runExample(){
-    /*val runnable = object: Runnable{
+    val runnable = object: Runnable{
         override fun run() {
             println("I'm a Runnable")
         }
     }
-    JavaRun.runNow(runnable)*/
+    JavaRun.runNow(runnable)
 
-    JavaRun.runNow{
+    /*JavaRun.runNow{
         println("Passing a lamda as a Runnable")
-    }
+    }*/
+
+    /*JavaRun.runNow {
+        println("Last parameter is a lambda as a Runnable")
+    }*/
 }
