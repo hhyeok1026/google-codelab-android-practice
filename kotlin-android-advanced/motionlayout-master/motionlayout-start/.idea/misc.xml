@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/choi/AndroidStudioProjects/google-codelab-android-practice/kotlin-android-advanced/motionlayout-master/motionlayout-start/app/src/main/res/layout/activity_main.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/choi/AndroidStudioProjects/google-codelab-android-practice/kotlin-android-advanced/motionlayout-master/motionlayout-start/app/src/main/res/layout/activity_step1.xml" value="0.1875" />
+        <entry key="..\:/Users/choi/AndroidStudioProjects/google-codelab-android-practice/kotlin-android-advanced/motionlayout-master/motionlayout-start/app/src/main/res/layout/activity_step1_completed.xml" value="0.14764492753623187" />
+        <entry key="..\:/Users/choi/AndroidStudioProjects/google-codelab-android-practice/kotlin-android-advanced/motionlayout-master/motionlayout-start/app/src/main/res/layout/activity_step2.xml" value="0.1" />
+        <entry key="..\:/Users/choi/AndroidStudioProjects/google-codelab-android-practice/kotlin-android-advanced/motionlayout-master/motionlayout-start/app/src/main/res/layout/activity_step3.xml" value="0.25" />
+        <entry key="..\:/Users/choi/AndroidStudioProjects/google-codelab-android-practice/kotlin-android-advanced/motionlayout-master/motionlayout-start/app/src/main/res/layout/activity_step4.xml" value="0.17477203647416414" />
+        <entry key="..\:/Users/choi/AndroidStudioProjects/google-codelab-android-practice/kotlin-android-advanced/motionlayout-master/motionlayout-start/app/src/main/res/layout/activity_step5.xml" value="0.17477203647416414" />
+        <entry key="..\:/Users/choi/AndroidStudioProjects/google-codelab-android-practice/kotlin-android-advanced/motionlayout-master/motionlayout-start/app/src/main/res/layout/activity_step6.xml" value="0.17477203647416414" />
+        <entry key="..\:/Users/choi/AndroidStudioProjects/google-codelab-android-practice/kotlin-android-advanced/motionlayout-master/motionlayout-start/app/src/main/res/layout/activity_step7.xml" value="0.17477203647416414" />
+        <entry key="..\:/Users/choi/AndroidStudioProjects/google-codelab-android-practice/kotlin-android-advanced/motionlayout-master/motionlayout-start/app/src/main/res/layout/activity_step7_with_hint.xml" value="0.17477203647416414" />
+        <entry key="..\:/Users/choi/AndroidStudioProjects/google-codelab-android-practice/kotlin-android-advanced/motionlayout-master/motionlayout-start/app/src/main/res/layout/activity_step8.xml" value="0.1" />
+        <entry key="..\:/Users/choi/AndroidStudioProjects/google-codelab-android-practice/kotlin-android-advanced/motionlayout-master/motionlayout-start/app/src/main/res/layout/activity_step8_completed.xml" value="0.29528985507246375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
