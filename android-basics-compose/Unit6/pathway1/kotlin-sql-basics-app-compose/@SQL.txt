@@ -1,0 +1,67 @@
+SELECT  FROM email;
+SELECT subject FROM email;
+SELECT subject, sender FROM email;
+
+SELECT COUNT() FROM email;
+SELECT MAX(received) FROM email;
+
+SELECT DISTINCT sender FROM email;
+SELECT COUNT(DISTINCT sender) FROM email;
+
+SELECT  FROM email
+WHERE folder = 'inbox';
+
+SELECT  FROM email
+WHERE folder = 'inbox' AND read = false;
+
+SELECT  FROM email
+WHERE folder = 'important' OR starred = true;
+
+SELECT COUNT() FROM email
+WHERE subject LIKE '%fool%';
+
+SELECT  FROM email
+WHERE subject LIKE '%fool';
+
+SELECT sender FROM email
+WHERE sender LIKE 'h%';
+
+SELECT folder, COUNT() FROM email
+GROUP BY folder;
+
+SELECT  FROM email
+ORDER BY received;
+
+SELECT  FROM email
+ORDER BY received ASC
+
+SELECT  FROM email
+ORDER BY received DESC;
+
+SELECT  FROM email
+WHERE folder = 'inbox'
+ORDER BY received
+LIMIT 10;
+
+SELECT  FROM email
+WHERE folder = 'inbox'
+ORDER BY received
+LIMIT 10 OFFSET 10;
+
+INSERT INTO email
+VALUES (
+    NULL, 'Lorem ipsum dolor sit amet', 'sender@example.com', 'inbox', false, false, CURRENT_TIMESTAMP
+);
+
+SELECT  FROM email
+WHERE sender = 'sender@example.com';
+
+UPDATE email
+SET read = true
+WHERE id = 44;
+
+SELECT read FROM email
+WHERE id = 44;
+
+DELETE FROM email
+WHERE id = 44;
