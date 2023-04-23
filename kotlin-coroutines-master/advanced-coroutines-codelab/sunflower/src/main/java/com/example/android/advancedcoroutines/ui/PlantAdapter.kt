@@ -37,8 +37,8 @@ class PlantAdapter : ListAdapter<Plant, RecyclerView.ViewHolder>(PlantDiffCallba
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         return PlantViewHolder(
-            ListItemPlantBinding.inflate(
-            LayoutInflater.from(parent.context), parent, false))
+            ListItemPlantBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        )
     }
 
     class PlantViewHolder(
